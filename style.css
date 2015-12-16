@@ -8,12 +8,18 @@ body {
   padding: 0;
 }
 
-.overlay {
+.overlay-wrapper {
   z-index: 1;
   right: 0;
+  padding-top: 150px;
   position: absolute;
+}
+
+.overlay {
   background: rgba(0, 0, 0, .5);
   color: #eee;
+  height: 400px;
+  overflow-y: auto;
 }
 
 .map-header {
